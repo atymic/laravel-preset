@@ -88,7 +88,7 @@ class Preset extends BasePreset {
             ];
             $this->packages['harmonic/inertia-table'] = [
                 'repo' => 'https://github.com/harmonic/inertia-table',
-                'version' => '^1.0.0'
+                'version' => 'dev-patch-1'
             ];
             $this->options['packages'][] = 'inertiajs/inertia-laravel';
             $this->options['packages'][] = 'harmonic/inertia-table';
